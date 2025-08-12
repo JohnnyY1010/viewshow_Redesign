@@ -37,6 +37,7 @@ header .container {
     display: flex;
     color: white;
     gap: 10px;
+    margin-right: 12px;
 }
 
 .logo img {
@@ -53,12 +54,12 @@ header .container {
 }
 
 .logoTextMain {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
 }
 
 .logoTextSub {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 7px;
 }
@@ -648,4 +649,414 @@ footer .copyright h4 {
 footer .copyright p {
     font-size: 20px;
     color: white;
+}
+
+@media screen and (max-width: 1220px) {
+
+    .view1,
+    .view2 {
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .nav ul {
+        font-size: 28px;
+        gap: 24px;
+    }
+
+    .nav button {
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+    .title {
+        margin: 80px 40px;
+    }
+
+    .title H2 {
+        font-size: 48px;
+    }
+
+    .title p {
+        font-size: 20px;
+    }
+
+    .arrow i {
+        display: none;
+    }
+
+    .movieList {
+        width: 90%;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .moviePoster {
+        width: 40%;
+        height: 500px;
+        margin-bottom: 24px;
+    }
+
+
+    .moviePoster:hover {
+        width: 40%;
+        height: 500px;
+    }
+
+    .moviePosterText {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .moviePosterTitle h3 {
+        font-size: 20px;
+    }
+
+    .view2 .container {
+        gap: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .movieIntroText {
+        max-width: 80%;
+    }
+
+    .movieIntroText h2 {
+        font-size: 40px;
+    }
+
+    .movieIntroText p {
+        font-size: 20px;
+    }
+
+    .movieIntroBtn {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .bookingBtn,
+    .trailerBtn {
+        width: 120px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .arrowBtn {
+        justify-content: space-around;
+        margin-top: 12px;
+    }
+
+    .movieIntroImg {
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    .movieIntroImg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .view3 .container {
+        width: 90%;
+        padding: 60px 32px;
+    }
+
+    .card1,
+    .card2 {
+        height: 350px;
+    }
+
+    .card1 .cinemaInfo,
+    .card2 .cinemaInfo {
+        width: 600px;
+        padding: 0 120px 0 40px;
+    }
+
+    .card2 .cinemaInfo {
+        padding: 0 40px 0 120px;
+    }
+
+    .card1 .cinemaTitle,
+    .card2 .cinemaTitle {
+        font-size: 36px;
+    }
+
+    .card1 .cinemaSub,
+    .card2 .cinemaSub {
+        font-size: 20px;
+    }
+
+    .card1 .cinemaLocation,
+    .card1 .cinemaNumber,
+    .card2 .cinemaLocation,
+    .card2 .cinemaNumber {
+        font-size: 20px;
+    }
+
+    .card1 .cinemaImg,
+    .card2 .cinemaImg {
+        width: 350px;
+        height: 250px;
+    }
+
+    .v4Title H2 {
+        font-size: 48px;
+        margin: 40px;
+    }
+
+    .card1 .productInfo,
+    .card2 .productInfo {
+        width: 600px;
+        padding: 0 120px 0 40px;
+    }
+
+    .card2 .productInfo {
+        padding: 0 40px 0 120px;
+    }
+
+    .card1 .productTitle,
+    .card2 .productTitle {
+        font-size: 36px;
+    }
+
+    .productInfo ul li {
+        font-size: 18px;
+        margin-left: 32px;
+    }
+
+    .card1 .productImg,
+    .card2 .productImg {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .logoTextMain {
+        font-size: 24px;
+    }
+
+    .logoTextSub {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .title {
+        margin: 40px 20px;
+    }
+
+    .title H2 {
+        font-size: 36px;
+    }
+
+    .title p {
+        font-size: 18px;
+    }
+
+    .movieList {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .moviePoster {
+        width: 55%;
+        height: 500px;
+    }
+
+    .moviePoster:hover {
+        width: 55%;
+        height: 500px;
+    }
+
+    .movuePoster img {
+        width: 100%;
+        height: auto;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .view2 .container {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .movieIntroText {
+        max-width: 100%;
+    }
+
+    .movieIntroText h2 {
+        font-size: 32px;
+    }
+
+    .movieIntroText p {
+        font-size: 18px;
+    }
+
+    .movieIntroBtn {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .bookingBtn,
+    .trailerBtn {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .arrowBtn {
+        width: 200px;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .movieIntroImg {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .movieIntroImg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .view3 .container {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .card1,
+    .card2 {
+        height: auto;
+        width: 70%;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .card1 .cinemaInfo,
+    .card2 .cinemaInfo {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        background: rgba(27, 60, 93, 0.8);
+        align-items: center;
+        order: 2;
+    }
+
+    .card1 .cinemaImg,
+    .card2 .cinemaImg {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        order: 1;
+    }
+
+    .card1 .cinemaTitle,
+    .card2 .cinemaTitle {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .card1 .cinemaSub,
+    .card2 .cinemaSub {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .card1 .cinemaLocation,
+    .card1 .cinemaNumber,
+    .card2 .cinemaLocation,
+    .card2 .cinemaNumber {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .card1 .cinemaDetail,
+    .card2 .cinemaDetail {
+        font-size: 18px;
+    }
+
+    .v4Title H2 {
+        font-size: 36px;
+        margin: 30px;
+    }
+
+    .card1 .productInfo,
+    .card2 .productInfo {
+        width: 100%;
+        padding: 20px;
+        text-align: left;
+        background: rgba(27, 60, 93, 0.8);
+        align-items: flex-start;
+        order: 2;
+    }
+
+    .card1 .productImg,
+    .card2 .productImg {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        order: 1;
+    }
+
+    .card1 .productTitle,
+    .card2 .productTitle {
+        font-size: 24px;
+    }
+
+    .productInfo ul li {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .copyright {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    footer .copyright h4 {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    footer .copyright p {
+        font-size: 16px;
+    }
 }
