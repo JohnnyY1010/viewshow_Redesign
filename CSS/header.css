@@ -1,0 +1,154 @@
+header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1B3C5D;
+    gap: 10px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+}
+
+header .container {
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    color: white;
+    gap: 10px;
+    margin-right: 12px;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+}
+
+.logoText {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoTextMain {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.logoTextSub {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav ul :hover {
+    color: #9b9b9b;
+}
+
+.nav ul li {
+    cursor: pointer;
+}
+
+.nav button {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 200px;
+    background-color: #545454;
+    border: none;
+    color: white;
+}
+
+.nav button:hover {
+    background-color: #989898;
+}
+
+.menu {
+    display: none;
+    color: white;
+    font-size: 36px;
+    padding: 8px;
+}
+
+@media screen and (max-width: 1220px) {
+
+    .view1,
+    .view2 {
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .nav ul {
+        font-size: 28px;
+        gap: 24px;
+    }
+
+    .nav button {
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .logoTextMain {
+        font-size: 24px;
+    }
+
+    .logoTextSub {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+}
