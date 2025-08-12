@@ -61,7 +61,7 @@ header .container {
     color: white;
     list-style: none;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 32px;
     font-family: "Noto Sans";
     font-size: 32px;
@@ -76,6 +76,11 @@ header .container {
 
 .nav ul li {
     cursor: pointer;
+}
+
+.thisPage {
+    color: #989898;
+    text-decoration: underline;
 }
 
 .nav button {

@@ -160,3 +160,118 @@ body {
     padding: 5px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 1220px) {
+    .view .container {
+        width: 90%;
+    }
+
+    .title {
+        margin: 80px 50px;
+        font-size: 40px;
+    }
+
+    .movieList {
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    .moviePoster {
+        width: 30%;
+        margin-bottom: 40px;
+    }
+
+    .moviePosterText {
+        height: 140px;
+        padding: 14px;
+    }
+
+    .moviePosterTitle h3 {
+        font-size: 22px;
+    }
+
+    .moviePosterSub {
+        font-size: 18px;
+    }
+
+    .search input[type="search"] {
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .searchBtn {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    body {
+        padding-top: 60px;
+    }
+
+    .view {
+        padding-bottom: 80px;
+    }
+
+    .view .container {
+        width: 95%;
+    }
+
+    .title {
+        margin: 60px 20px;
+        font-size: 32px;
+    }
+
+    .search {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .search input[type="search"] {
+        width: 200px;
+        height: 36px;
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    .searchBtn {
+        font-size: 24px;
+    }
+
+    .movieList {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .moviePoster {
+        width: 45%;
+        margin-bottom: 32px;
+    }
+
+    .moviePoster img {
+        height: auto;
+    }
+
+    .moviePosterText {
+        height: 120px;
+        padding: 12px;
+    }
+
+    .moviePosterTitle h3 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .moviePosterSub {
+        font-size: 16px;
+    }
+
+    .ratingG,
+    .ratingPG,
+    .ratingR12,
+    .ratingR15,
+    .ratingNC {
+        padding: 4px;
+        font-size: 14px;
+    }
+}
