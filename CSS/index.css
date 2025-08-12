@@ -186,6 +186,7 @@ header .container {
     width: 17%;
     background-color: #1B3C5D;
     cursor: pointer;
+    /* border: 5px solid transparent; */
 }
 
 .moviePoster:hover {

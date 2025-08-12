@@ -25,6 +25,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: 120px;
 }
 
 .view .container {
@@ -42,6 +43,40 @@ body {
     text-align: center;
 }
 
+.search {
+    width: 100%;
+    height: 64px;
+    text-align: end;
+    margin-bottom: 32px;
+    color: white;
+}
+
+.search input[type="search"] {
+    width: 300px;
+    height: 40px;
+    padding: 10px 15px;
+
+    background-color: transparent;
+    border-bottom: 3px solid #e9ecef;
+    color: #ffffff;
+
+    font-size: 24px;
+    outline: none;
+}
+
+.searchBtn {
+    background-color: transparent;
+    color: white;
+    font-size: 32px;
+    box-shadow: none;
+    outline: none;
+}
+
+.searchBtn:hover {
+    color: #7a7a7a;
+}
+
+
 .movieList {
     width: 80%;
     display: flex;
@@ -56,10 +91,10 @@ body {
     background-color: #1B3C5D;
     cursor: pointer;
     margin-bottom: 48px;
+    border: 5px solid transparent;
 }
 
 .moviePoster:hover {
-    width: 21%;
     border: #710008 solid 5px;
 }
 
