@@ -28,7 +28,7 @@ header .container {
 }
 
 .logo img {
-    width: 70px;
+    width: 60px;
     height: auto;
     object-fit: contain;
 }
@@ -41,12 +41,12 @@ header .container {
 }
 
 .logoTextMain {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .logoTextSub {
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 500;
     letter-spacing: 7px;
 }
@@ -64,7 +64,7 @@ header .container {
     align-items: center;
     gap: 32px;
     font-family: "Noto Sans";
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -88,7 +88,7 @@ header .container {
     padding: 8px 16px;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -105,7 +105,7 @@ header .container {
 .menu {
     display: none;
     color: white;
-    font-size: 36px;
+    font-size: 32px;
     padding: 8px;
 }
 
@@ -121,12 +121,12 @@ header .container {
     }
 
     .nav ul {
-        font-size: 28px;
+        font-size: 20px;
         gap: 24px;
     }
 
     .nav button {
-        font-size: 20px;
+        font-size: 16px;
         padding: 6px 12px;
     }
 }
@@ -145,11 +145,11 @@ header .container {
     }
 
     .logoTextMain {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .logoTextSub {
-        font-size: 12px;
+        font-size: 8px;
         letter-spacing: 3px;
     }
 

@@ -1,11 +1,45 @@
 footer {
-    height: 100px;
+    height: 75px;
     width: 100%;
     background-color: #1B3C5D;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+footer .logo {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    color: white;
+    gap: 10px;
+    margin-right: 12px;
+}
+
+footer .logo img {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+}
+
+footer .logoText {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer.logoTextMain {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer .logoTextSub {
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+
 
 footer .copyright {
     display: flex;
@@ -15,13 +49,13 @@ footer .copyright {
 }
 
 footer .copyright h4 {
-    font-size: 24px;
+    font-size: 16px;
     color: white;
     margin: 12px;
 }
 
 footer .copyright p {
-    font-size: 20px;
+    font-size: 12px;
     color: white;
 }
 
@@ -40,11 +74,11 @@ footer .copyright p {
     }
 
     footer .copyright h4 {
-        font-size: 18px;
+        font-size: 16px;
         margin: 5px;
     }
 
     footer .copyright p {
-        font-size: 16px;
+        font-size: 12px;
     }
 }

@@ -1,0 +1,469 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 75px;
+}
+
+.view {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background:
+        linear-gradient(rgba(26, 45, 64, 0.8), rgba(26, 45, 64, 0.8)),
+        url(../img/STAR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+}
+
+.view .container {
+    width: 70%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.progressBar {
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    gap: 12px;
+}
+
+.progressBar p {
+    font-size: 20px;
+}
+
+.progressBar h5 {
+    font-size: 28px;
+}
+
+.according {
+    color: #3197FF;
+}
+
+.ahead {
+    color: #7E8299;
+}
+
+.movieIntro {
+    margin: 80px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.movieIntroText {
+    width: 50%;
+}
+
+.released {
+    font-size: 32px;
+    color: white;
+    border-left: #FFE558 solid 8px;
+    padding-left: 16px;
+    font-weight: 400;
+}
+
+.movieTitle {
+    margin-top: 32px;
+}
+
+.movieTitle H2 {
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.movieTitle h5 {
+    font-size: 16px;
+    color: #ABABAB;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.movieDetail {
+    margin-top: 24px;
+    font-size: 20px;
+    width: 100%;
+    color: #ABABAB;
+    font-family: sans-serif;
+}
+
+.movieInfo {
+    margin-top: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.movieInfo .ratingG {
+    font-size: 20px;
+    color: #1EFF00;
+}
+
+.movieInfo .time {
+    font-size: 20px;
+    color: white;
+}
+
+.movieInfo .releaseDate {
+    font-size: 20px;
+    color: white;
+}
+
+.movieIntroImg {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movieIntroImg img {
+    width: 100%;
+    height: auto;
+}
+
+.menuSelect {
+    background-color: rgba(27, 60, 93, 0.5);
+    width: 100%;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.selector {
+    width: 25%;
+    padding: 8px;
+    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: white solid 2px;
+}
+
+.pickingList {
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
+.pickingCard {
+    border: white solid 1px;
+    border-radius: 10px;
+    margin: 24px;
+    cursor: pointer;
+}
+
+.pickingCard:hover {
+    background-color: rgba(27, 60, 93, 0.7);
+}
+
+.pickingCardTop {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.pickingCardTop .time {
+    color: white;
+    font-size: 30px;
+}
+
+.pickingCardTop .theator {
+    color: #b2b2b2;
+    font-size: 24px;
+    text-align: center;
+}
+
+.pickingCardBottom {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.pickingCardBottom p {
+    font-size: 24px;
+    color: #b2b2b2;
+}
+
+.pickingCardBottom .seatNumber {
+    color: #00d900;
+    font-size: 30px;
+}
+
+.pickingCard.soldout {
+    border-color: #666;
+    cursor: not-allowed;
+}
+
+.pickingCard.soldout:hover {
+    background-color: transparent;
+
+}
+
+.pickingCard.soldout .time,
+.pickingCard.soldout .theator {
+    color: #666;
+
+}
+
+.pickingCardBottomSoldout p {
+    display: none;
+}
+
+.pickingCardBottomSoldout .seatNumber {
+    display: block;
+    color: red;
+    text-align: center;
+    font-size: 28px;
+}
+
+@media (max-width: 1220px) {
+    .view .container {
+        width: 90%;
+    }
+
+    .progressBar {
+        margin-top: 60px;
+    }
+
+    .progressBar p {
+        font-size: 18px;
+    }
+
+    .progressBar h5 {
+        font-size: 24px;
+    }
+
+    .movieIntro {
+        margin: 60px 0px;
+        gap: 30px;
+    }
+
+    .movieIntroText {
+        width: 55%;
+    }
+
+    .movieIntroImg {
+        width: 40%;
+    }
+
+    .released {
+        font-size: 28px;
+    }
+
+    .movieTitle H2 {
+        font-size: 36px;
+    }
+
+    .movieDetail {
+        font-size: 18px;
+    }
+
+    .movieInfo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .movieInfo div {
+        font-size: 18px;
+    }
+
+    .menuSelect {
+        font-size: 20px;
+        padding: 12px 24px;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .selector {
+        width: 30%;
+        min-width: 200px;
+    }
+
+    .pickingCard {
+        margin: 16px;
+    }
+
+    .pickingCardTop .time {
+        font-size: 26px;
+    }
+
+    .pickingCardTop .theator {
+        font-size: 20px;
+    }
+
+    .pickingCardBottom p {
+        font-size: 20px;
+    }
+
+    .pickingCardBottom .seatNumber {
+        font-size: 26px;
+    }
+
+    .pickingCardBottomSoldout .seatNumber {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 749px) {
+    .view .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+
+    .progressBar {
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .progressBar p {
+        font-size: 16px;
+    }
+
+    .progressBar h5 {
+        font-size: 20px;
+    }
+
+    .movieIntro {
+        flex-direction: column;
+        margin: 40px 0px;
+        gap: 20px;
+    }
+
+    .movieIntroText {
+        width: 100%;
+        order: 2;
+    }
+
+    .movieIntroImg {
+        width: 100%;
+        align-items: center;
+        order: 1;
+    }
+
+    .movieIntroImg img {
+        max-width: 300px;
+    }
+
+    .released {
+        font-size: 24px;
+        border-left-width: 6px;
+        padding-left: 12px;
+    }
+
+    .movieTitle {
+        margin-top: 24px;
+    }
+
+    .movieTitle H2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .movieTitle h5 {
+        font-size: 14px;
+    }
+
+    .movieDetail {
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    .movieInfo {
+        margin-top: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .movieInfo div {
+        font-size: 16px;
+    }
+
+    .menuSelect {
+        flex-direction: column;
+        padding: 20px;
+        font-size: 18px;
+        gap: 16px;
+    }
+
+    .selector {
+        width: 100%;
+        padding: 12px 8px;
+        justify-content: space-between;
+        border-bottom-width: 1px;
+    }
+
+    .pickingList {
+        /* justify-content: center; */
+        margin-top: 32px;
+        padding-bottom: 80px;
+    }
+
+    .pickingCard {
+        margin: 12px;
+        width: 25%;
+    }
+
+    .pickingCardTop {
+        padding: 12px 8px;
+        gap: 4px;
+    }
+
+    .pickingCardTop .time {
+        font-size: 24px;
+    }
+
+    .pickingCardTop .theator {
+        font-size: 16px;
+    }
+
+    .pickingCardBottom {
+        padding: 8px;
+        justify-content: center;
+        gap: 4px;
+    }
+
+    .pickingCardBottom p {
+        font-size: 16px;
+    }
+
+    .pickingCardBottom .seatNumber {
+        font-size: 20px;
+    }
+
+    .pickingCardBottomSoldout {
+        padding: 8px;
+        text-align: center;
+    }
+
+    .pickingCardBottomSoldout .seatNumber {
+        font-size: 18px;
+    }
+}
