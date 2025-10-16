@@ -25,6 +25,7 @@ body {
     height: 100%;
     align-items: center;
     display: flex;
+    margin-bottom: 80px;
 }
 
 .view1 .container {
