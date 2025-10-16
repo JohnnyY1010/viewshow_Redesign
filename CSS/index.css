@@ -185,7 +185,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 0, auto;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .moviePoster {
