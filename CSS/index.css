@@ -137,7 +137,6 @@ body {
 
 .view1 .container {
     flex-direction: column;
-    height: 100%;
 }
 
 .title {
@@ -182,27 +181,26 @@ body {
 
 .movieList {
     width: 80%;
-    height: calc(100vh*0.4);
     display: flex;
     justify-content: space-evenly;
     margin: 0, auto;
 }
 
 .moviePoster {
-    height: 100%;
-    width: 13%;
+    height: 400px;
+    width: 220px;
     background-color: #1B3C5D;
     cursor: pointer;
     /* border: 5px solid transparent; */
 }
 
 .moviePoster:hover {
-    width: 14%;
+    width: 230px;
     border: #710008 solid 3px;
 }
 
 .moviePoster img {
-    height: 380px;
+    height: 280px;
     width: 100%;
     background-color: #929292;
     object-fit: cover;
