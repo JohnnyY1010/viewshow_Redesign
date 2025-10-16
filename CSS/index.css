@@ -188,7 +188,7 @@ body {
 
 .moviePoster {
     height: 400px;
-    width: 207px;
+    width: 15%;
     background-color: #1B3C5D;
     cursor: pointer;
     /* border: 5px solid transparent; */
